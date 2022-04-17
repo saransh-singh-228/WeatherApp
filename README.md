@@ -1,1 +1,1 @@
-# saransh-singh-228.github.io
+# weather website made with API from Open Weather
