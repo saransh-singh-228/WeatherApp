@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: url('https://i.redd.it/hcwb4pxubet81.jpg');
+    background-image: url('https://i.ibb.co/YN50J9z/8ffc8aa208fe394a76d6521c931e3294.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,11 +15,11 @@ body{
 
 }
 .name{
-    width: 360px;
+    width: 600px;
     text-align: center;
     padding-top:10px;
     padding-bottom: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 0.7cm;
 }
@@ -36,31 +36,45 @@ body{
 .container input[type="text"]{
     width: 250px;
     padding: 8px;
-    font-size: 20px;
+    font-size: 25px;
     outline: none;
     text-align: right;
     height: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 
 .container input[type="button"]{
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     height: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 100px;
     background: rgba(245, 239, 239, 0);
-    border-radius: 12px;
+    border-radius: 30px;
     margin-top: 15px;
     padding-left: 3px;
 
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(238, 228, 228);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(238, 228, 228);
+}
+
 
 .displaycontainer{
     width: 360px;
@@ -77,9 +91,9 @@ body{
     padding: 8px;
     font-size: 20px;
     outline: none;
-    margin-left: 45px;
+    margin-left: 65px;
     height: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
@@ -87,5 +101,5 @@ body{
 }
 
 .container input[type="button"]:hover{
-    background: rgba(255, 143, 51, 0.5);
+    background: rgba(224, 144, 78, 0.937);
 }
